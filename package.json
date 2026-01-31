@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API Rest con Express",
+  "homepage": "https://github.com/Matias-Savio/backend1-matias-savio#readme",
+  "bugs": {
+    "url": "https://github.com/Matias-Savio/backend1-matias-savio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matias-Savio/backend1-matias-savio.git"
+  },
+  "license": "ISC",
+  "author": "Matias Savio",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
