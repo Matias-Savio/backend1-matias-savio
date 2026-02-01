@@ -13,7 +13,6 @@ router.get("/", async (req, res) => {
   }
 });
 
-// GET /:pid - Obtener producto por ID
 router.get("/:pid", async (req, res) => {
   try {
     const product = await manager.getProductById(Number(req.params.pid));
