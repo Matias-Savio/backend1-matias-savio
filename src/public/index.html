@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" id="messageInput" placeholder="Escriba un mensaje" />
+    <button onclick="sendMessage()" id="boton">Enviar</button>
+
+    <div id="messageList"></div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/src/public/client.js"></script>
+  </body>
+</html>
